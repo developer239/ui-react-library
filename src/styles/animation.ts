@@ -10,4 +10,7 @@ export default {
       opacity: 1;
     }
   `,
+  spin: keyframes`
+    to { -webkit-transform: rotate(360deg); }
+ `,
 }
