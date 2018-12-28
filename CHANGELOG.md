@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/developer239/ui-library-ts/compare/v1.0.4...v1.1.0) (2018-12-28)
+
+
+### Bug Fixes
+
+* main file path in package.json ([b6a9ccf](https://github.com/developer239/ui-library-ts/commit/b6a9ccf))
+
+
+### Features
+
+* make new components public ([395edb3](https://github.com/developer239/ui-library-ts/commit/395edb3))
+
 ## [1.0.4](https://github.com/developer239/ui-library-ts/compare/v1.0.3...v1.0.4) (2018-12-28)
 
 
