@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
-import { P, H1, H2, H3, H4, H5, H6 } from '../src/components/Typography'
+import { P, H1, H2, H3, H4, H5, H6, A } from '../src/components/Typography'
 
 storiesOf('Typography', module)
   .add('Headers', () => (
@@ -24,3 +24,4 @@ storiesOf('Typography', module)
       cu.
     </P>
   ))
+  .add('Anchor', () => <A href="#">Some simple anchor</A>)
