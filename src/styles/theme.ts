@@ -1,5 +1,5 @@
 const theme = {
-  fontFamily: 'Roboto',
+  fontFamily: 'Helvetica, Arial, sans-serif',
   color: {
     text: '#606c76',
     primary: '#1f8dd6',
