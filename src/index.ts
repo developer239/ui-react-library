@@ -9,6 +9,8 @@ export { default as Spinner } from './components/Spinner'
 export { default as Textarea } from './components/Textarea'
 export { default as Typography } from './components/Typography'
 
+export { default as Margin } from './components/Margin'
+
 export { default as animation } from './styles/animation'
 export { default as global } from './styles/global'
 export { default as mq } from './styles/mq'
