@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { mq } from 'src/styles'
 
-export const HamburgerComponent = styled.svg<{ onClick?: any }>`
+export const HamburgerComponent = styled.svg<{ onClick?: () => void }>`
   display: block;
   cursor: pointer;
   margin-left: 1.5rem;
