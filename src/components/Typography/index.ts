@@ -61,6 +61,23 @@ export const P = styled.p`
   font-size: 1.6rem;
 `
 
+export const A = styled.a`
+  color: ${({ theme }) => theme.color.primary};
+  font-family: ${({ theme }) => theme.fontFamily};
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 300;
+  text-decoration: none;
+
+  &:visited {
+    color: ${({ theme }) => theme.color.primary};
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+`
+
 export default {
   H1,
   H2,
@@ -69,4 +86,5 @@ export default {
   H5,
   H6,
   P,
+  A,
 }
