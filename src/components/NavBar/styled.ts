@@ -29,10 +29,10 @@ export const LinksContainer = styled.div<{ isOpen?: boolean }>`
 export const StyledLink = styled.a<{ isOpen?: boolean; isActive?: boolean }>`
   color: ${({ theme }) => theme.color.white};
   font-family: ${({ theme }) => theme.fontFamily};
-  font-size: 1.6rem;
-  line-height: 1.7rem;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
   border-bottom: 0.1rem solid ${({ theme }) => theme.color.white};
-  padding: 2.2rem 1.6rem;
+  padding: 2.2rem 2rem;
   width: 100%;
   cursor: pointer;
   transition: all 250ms linear;
@@ -47,18 +47,20 @@ export const StyledLink = styled.a<{ isOpen?: boolean; isActive?: boolean }>`
     border-bottom: none;
     width: auto;
     font-family: ${({ theme }) => theme.fontFamily};
-    font-size: 1.6rem;
-    line-height: 1.7rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
     text-transform: uppercase;
+    padding: 2.2rem 2.4rem;
   }
 
   ${({ isActive, theme }) =>
     isActive &&
     `
-    color: ${theme.color.primary};
+    color: ${theme.color.white};
+    background-color: ${theme.color.primary};
 
     &:visited {
-      color: ${theme.color.primary};
+      color: ${theme.color.white};
     }
   `};
 `
