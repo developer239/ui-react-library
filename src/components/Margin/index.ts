@@ -34,8 +34,8 @@ const Margin = styled.div<IMarginProps>`
   ${({ vertical }) =>
     vertical &&
     `
-    margin-left: ${vertical}rem;
-    margin-right: ${vertical}rem;
+    margin-top: ${vertical}rem;
+    margin-bottom: ${vertical}rem;
   `}
 
   ${({ top }) =>
