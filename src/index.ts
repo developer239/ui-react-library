@@ -4,6 +4,8 @@ export { default as Input } from './components/Input'
 export { default as Layout } from './components/Layout'
 export { default as NavBar } from './components/NavBar'
 export { default as Section } from './components/Section'
+export { default as Select } from './components/Select'
+export { default as Textarea } from './components/Textarea'
 export { default as Typography } from './components/Typography'
 
 export { default as animation } from './styles/animation'
