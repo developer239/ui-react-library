@@ -1,25 +1,21 @@
 import * as React from 'react'
-import styled from 'styled-components'
 import { storiesOf } from '@storybook/react'
-import Alert from '../src/components/Alert'
-
-const Block = styled.div`
-  margin-bottom: 1rem;
-`
+import Alert from 'src/components/Alert'
+import Margin from 'src/components/Margin'
 
 storiesOf('Alert', module).add('Types', () => (
   <React.Fragment>
-    <Block>
+    <Margin bottom={1}>
       <Alert>Default alert message.</Alert>
-    </Block>
-    <Block>
+    </Margin>
+    <Margin bottom={1}>
       <Alert isSuccess>Success alert message.</Alert>
-    </Block>
-    <Block>
+    </Margin>
+    <Margin bottom={1}>
       <Alert isWarning>Warning alert message.</Alert>
-    </Block>
-    <Block>
+    </Margin>
+    <Margin bottom={1}>
       <Alert isError>Error alert message.</Alert>
-    </Block>
+    </Margin>
   </React.Fragment>
 ))

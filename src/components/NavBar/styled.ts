@@ -1,4 +1,6 @@
 import styled from 'src/styled'
+import is from 'styled-is'
+import { path } from 'ramda'
 import { mq } from 'src/styles'
 
 export const Container = styled.nav`
@@ -6,7 +8,7 @@ export const Container = styled.nav`
   display: flex;
   flex-direction: column-reverse;
   width: 100%;
-  background-color: ${({ theme }) => theme.color.secondary};
+  background-color: ${path(['theme', 'color', 'secondary'])};
 `
 
 export const LinksContainer = styled.div<{ isOpen?: boolean }>`
@@ -14,11 +16,9 @@ export const LinksContainer = styled.div<{ isOpen?: boolean }>`
   flex-direction: column;
   width: 100%;
 
-  ${({ isOpen }) =>
-    isOpen &&
-    `
+  ${is('isOpen')`
     display: flex;
-  `};
+  `}
 
   ${mq.md} {
     display: flex;
@@ -27,11 +27,11 @@ export const LinksContainer = styled.div<{ isOpen?: boolean }>`
 `
 
 export const StyledLink = styled.a<{ isOpen?: boolean; isActive?: boolean }>`
-  color: ${({ theme }) => theme.color.white};
-  font-family: ${({ theme }) => theme.fontFamily};
+  color: ${path(['theme', 'color', 'white'])};
+  font-family: ${path(['theme', 'fontFamily'])};
   font-size: 1.5rem;
   line-height: 1.6rem;
-  border-bottom: 0.1rem solid ${({ theme }) => theme.color.white};
+  border-bottom: 0.1rem solid ${path(['theme', 'color', 'white'])};
   padding: 2.2rem 2rem;
   width: 100%;
   cursor: pointer;
@@ -39,28 +39,25 @@ export const StyledLink = styled.a<{ isOpen?: boolean; isActive?: boolean }>`
   text-decoration: none;
 
   &:hover {
-    background-color: ${({ theme }) => theme.color.primary};
-    color: ${({ theme }) => theme.color.white};
+    background-color: ${path(['theme', 'color', 'primary'])};
+    color: ${path(['theme', 'color', 'white'])};
   }
 
   ${mq.md} {
     border-bottom: none;
     width: auto;
-    font-family: ${({ theme }) => theme.fontFamily};
     font-size: 1.5rem;
     line-height: 1.6rem;
     text-transform: uppercase;
     padding: 2.2rem 2.4rem;
   }
 
-  ${({ isActive, theme }) =>
-    isActive &&
-    `
-    color: ${theme.color.white};
-    background-color: ${theme.color.primary};
+  ${is('isActive')`
+    color: ${path(['theme', 'color', 'white'])};
+    background-color: ${path(['theme', 'color', 'primary'])};
 
     &:visited {
-      color: ${theme.color.white};
+      color: ${path(['theme', 'color', 'white'])};
     }
-  `};
+  `}
 `

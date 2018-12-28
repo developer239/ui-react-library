@@ -25,6 +25,7 @@ const NavBar: React.FC<InnerProps> = ({ links, activeRoute }) => {
         {links.map(({ id, label, component, ...restLink }) => (
           <StyledLink
             key={id}
+            onClick={handleToggleIsOpen}
             isOpen={isOpen}
             as={component}
             isActive={

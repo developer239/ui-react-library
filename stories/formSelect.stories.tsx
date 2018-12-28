@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
-import Select from '../src/components/Select'
+import Select from 'src/components/Select'
 
 const options = [
   { value: 1, label: 'first option' },

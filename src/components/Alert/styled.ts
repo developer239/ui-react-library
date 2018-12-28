@@ -1,35 +1,38 @@
-import styled from 'src/styled'
+import styled, { IStyledProps } from 'src/styled'
 import { css } from 'styled-components'
+import is from 'styled-is'
+import { path } from 'ramda'
 import { animation } from 'src/styles'
 import { hexToRgb } from 'src/utils/color'
+import { IContainerProps } from './types'
 
-const alertColorsMixin = (
-  color: string,
-  borderColor?: string,
-  bgColor?: string
-) => css`
-  color: ${color};
-  border: 0.1rem solid ${hexToRgb(borderColor || color, 0.15)};
-  background-color: ${hexToRgb(bgColor || color, 0.15)};
+const alertColorsMixin = (type: string) => ({
+  theme: { color },
+}: IStyledProps) => css`
+  color: ${color[type]};
+  border: 0.1rem solid ${hexToRgb(color[type], 0.15)};
+  background-color: ${hexToRgb(color[type], 0.15)};
 `
 
-export const Container = styled.div<{
-  isSuccess?: boolean
-  isWarning?: boolean
-  isError?: boolean
-}>`
-  font-family: ${({ theme }) => theme.fontFamily};
+export const Container = styled.div<IContainerProps>`
   font-size: 1.6rem;
   line-height: 2.4rem;
-  padding: 1.1rem 3.2rem 1.3rem;
+  padding: 1.5rem 2rem;
   animation: ${animation.fadeIn} 300ms linear;
+  font-family: ${path(['theme', 'fontFamily'])};
+  color: ${path(['theme', 'color', 'black'])};
+  border: 0.1rem solid ${({ theme }) => hexToRgb(theme.color.interface, 0.15)};
+  background-color: ${({ theme }) => hexToRgb(theme.color.interface, 0.15)};
 
-  ${({ theme: { color } }) =>
-    alertColorsMixin(color.black, color.interface, color.interface)}
+  ${is('isSuccess')`
+    ${alertColorsMixin('success')}
+  `};
 
-  ${({ isSuccess, theme: { color } }) =>
-    isSuccess && alertColorsMixin(color.success)}
-  ${({ isWarning, theme: { color } }) =>
-    isWarning && alertColorsMixin(color.warning)}
-  ${({ isError, theme: { color } }) => isError && alertColorsMixin(color.error)}
+  ${is('isWarning')`
+    ${alertColorsMixin('warning')}
+  `};
+
+  ${is('isError')`
+    ${alertColorsMixin('error')}
+  `};
 `

@@ -1,7 +1,7 @@
 import * as React from 'react'
-import styled from 'styled-components'
+import styled from 'src/styled'
 import { storiesOf } from '@storybook/react'
-import NavBar, { ILink } from '../src/components/NavBar'
+import NavBar, { ILink } from 'src/components/NavBar'
 
 const LinkComponent: React.FC = ({ children, ...rest }) => (
   <span onClick={() => ({})} {...rest}>
@@ -16,12 +16,11 @@ const NAV_LINKS: ILink[] = [
 ]
 
 const MockContainer = styled.div`
-  width: 100vw;
+  width: 100%;
 `
 
-storiesOf('NavBar', module)
-  .add('Default', () => (
-    <MockContainer>
-      <NavBar activeRoute="/" links={NAV_LINKS} />
-    </MockContainer>
-  ))
+storiesOf('NavBar', module).add('Default', () => (
+  <MockContainer>
+    <NavBar activeRoute="/" links={NAV_LINKS} />
+  </MockContainer>
+))

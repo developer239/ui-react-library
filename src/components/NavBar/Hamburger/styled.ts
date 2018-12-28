@@ -1,4 +1,6 @@
-import styled from 'styled-components'
+import styled from 'src/styled'
+import is from 'styled-is'
+import { path } from 'ramda'
 import { mq } from 'src/styles'
 
 export const HamburgerComponent = styled.svg<{ onClick?: () => void }>`
@@ -12,7 +14,7 @@ export const HamburgerComponent = styled.svg<{ onClick?: () => void }>`
 `
 
 export const ToggleComponent = styled.g`
-  fill: ${({ theme }) => theme.color.white};
+  fill: ${path(['theme', 'color', 'white'])};
   pointer-events: all;
   cursor: pointer;
 `
@@ -26,17 +28,13 @@ export const Bar = styled.path<{ isOpen?: boolean }>`
   &:nth-of-type(1) {
     transform-origin: 2rem 1rem;
 
-    ${({ isOpen }) =>
-      isOpen &&
-      `
+    ${is('isOpen')`
       transform:rotate(-45deg) translateY(0) translateX(0);
     `};
   }
 
   &:nth-of-type(2) {
-    ${({ isOpen }) =>
-      isOpen &&
-      `
+    ${is('isOpen')`
       opacity: 0;
     `};
   }
@@ -44,9 +42,7 @@ export const Bar = styled.path<{ isOpen?: boolean }>`
   &:nth-of-type(3) {
     transform-origin: 2rem 2rem;
 
-    ${({ isOpen }) =>
-      isOpen &&
-      `
+    ${is('isOpen')`
       transform: rotate(45deg) translateY(0em) translateX(0em);
     `};
   }

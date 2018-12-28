@@ -1,7 +1,7 @@
 import * as React from 'react'
-import styled from 'styled-components'
+import styled from 'src/styled'
 import { storiesOf } from '@storybook/react'
-import Button from '../src/components/Button'
+import Button from 'src/components/Button'
 
 const Block = styled.div`
   margin-bottom: 1rem;

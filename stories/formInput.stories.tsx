@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
-import Input from '../src/components/Input'
+import Input from 'src/components/Input'
 
 storiesOf('Form Input', module)
   .add('Default [text]', () => (

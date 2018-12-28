@@ -1,4 +1,6 @@
 import styled from 'src/styled'
+import { path } from 'ramda'
+import is from 'styled-is'
 
 interface IMarginProps {
   isInline?: boolean
@@ -12,55 +14,39 @@ interface IMarginProps {
 }
 
 const Margin = styled.div<IMarginProps>`
-  ${({ isInline }) =>
-    isInline &&
-    `
+  ${is('isInline')`
     display: inline;
-  `}
+  `};
 
-  ${({ margin }) =>
-    margin &&
-    `
-    margin: ${margin};
-  `}
+  ${is('margin')`
+    margin: ${path(['margin'])};
+  `};
 
-  ${({ horizontal }) =>
-    horizontal &&
-    `
-    margin-left: ${horizontal}rem;
-    margin-right: ${horizontal}rem;
-  `}
+  ${is('horizontal')`
+    margin-right: ${path(['horizontal'])}rem;
+    margin-left: ${path(['horizontal'])}rem;
+  `};
 
-  ${({ vertical }) =>
-    vertical &&
-    `
-    margin-top: ${vertical}rem;
-    margin-bottom: ${vertical}rem;
-  `}
+  ${is('vertical')`
+    margin-top: ${path(['vertical'])}rem;
+    margin-bototm: ${path(['horizontal'])}rem;
+  `};
 
-  ${({ top }) =>
-    top &&
-    `
-    margin-top: ${top}rem;
-  `}
+  ${is('top')`
+    margin-top: ${path(['top'])}rem;
+  `};
 
-  ${({ right }) =>
-    right &&
-    `
-    margin-right: ${right}rem;
-  `}
+  ${is('right')`
+    margin-right: ${path(['right'])}rem;
+  `};
 
-  ${({ bottom }) =>
-    bottom &&
-    `
-    margin-bottom: ${bottom}rem;
-  `}
+  ${is('bottom')`
+    margin-bottom: ${path(['bottom'])}rem;
+  `};
 
-  ${({ left }) =>
-    left &&
-    `
-    margin-left: ${left}rem;
-  `}
+  ${is('left')`
+    margin-left: ${path(['left'])}rem;
+  `};
 `
 
 export default Margin

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
-import Textarea from '../src/components/Textarea'
+import Textarea from 'src/components/Textarea'
 
 storiesOf('Form Textarea', module)
   .add('Default [text]', () => (

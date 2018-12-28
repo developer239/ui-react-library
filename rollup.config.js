@@ -1,7 +1,7 @@
 import external from 'rollup-plugin-peer-deps-external'
 import typescript from 'rollup-plugin-typescript'
-import filesize from 'rollup-plugin-filesize';
-import progress from 'rollup-plugin-progress';
+import filesize from 'rollup-plugin-filesize'
+import progress from 'rollup-plugin-progress'
 import babel from 'rollup-plugin-babel'
 
 export default {
