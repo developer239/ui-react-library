@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/developer239/ui-library-ts/compare/v1.1.0...v1.2.0) (2018-12-28)
+
+
+### Features
+
+* create minimal spinner component ([a155561](https://github.com/developer239/ui-library-ts/commit/a155561))
+
 # [1.1.0](https://github.com/developer239/ui-library-ts/compare/v1.0.4...v1.1.0) (2018-12-28)
 
 
