@@ -1,3 +1,18 @@
+# [1.3.0](https://github.com/developer239/ui-library-ts/compare/v1.2.0...v1.3.0) (2018-12-28)
+
+
+### Bug Fixes
+
+* typo in vertical padding rule in margin component ([61cda5c](https://github.com/developer239/ui-library-ts/commit/61cda5c))
+
+
+### Features
+
+* add anchor story ([507336e](https://github.com/developer239/ui-library-ts/commit/507336e))
+* create basic anchor component ([122ee03](https://github.com/developer239/ui-library-ts/commit/122ee03))
+* create simple margin component ([ad7d762](https://github.com/developer239/ui-library-ts/commit/ad7d762))
+* make spinner component beautiful and create spinner story ([9e6c122](https://github.com/developer239/ui-library-ts/commit/9e6c122))
+
 # [1.2.0](https://github.com/developer239/ui-library-ts/compare/v1.1.0...v1.2.0) (2018-12-28)
 
 
