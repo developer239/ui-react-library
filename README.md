@@ -21,8 +21,6 @@ If you want to see it in action feel free to take a look at my [react-apollo-gra
 
 ## Commit Guidelines
 
-### Commit types
-
 | Commit Type | Title                    | Description                                                                                                 | Emoji | Release                        | Include in changelog |
 | :---------: | ------------------------ | ----------------------------------------------------------------------------------------------------------- | :---: | ------------------------------ | :------------------: |
 |   `feat`    | Features                 | A new feature                                                                                               |  ✨   | `minor`                        |        `true`        |
@@ -36,12 +34,6 @@ If you want to see it in action feel free to take a look at my [react-apollo-gra
 |    `ci`     | Continuous Integrations  | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs) |  ⚙️   | -                              |        `true`        |
 |   `chore`   | Chores                   | Other changes that don't modify src or test files                                                           |  ♻️   | -                              |        `true`        |
 |  `revert`   | Reverts                  | Reverts a previous commit                                                                                   |   🗑   | -                              |        `true`        |
-
-### Commit aliases
-
-Aliases allow to have additional commit types (in a tool like [commitizen](https://github.com/commitizen/cz-cli) for example) that can be formatted to follow [AngularJS Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit).
-
-For example the [commitizen](https://github.com/commitizen/cz-cli) CLI can present the choice `initial` and the final commit message will be 'feat: Initial commit 🎉'
 
 |    Commit Type     | Maps to | Title             | Description                     | Emoji |
 | :----------------: | ------- | ----------------- | ------------------------------- | :---: |
