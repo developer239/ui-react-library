@@ -1,0 +1,4 @@
+exclude_patterns:
+- "esm"
+- "lib"
+- "stories"
