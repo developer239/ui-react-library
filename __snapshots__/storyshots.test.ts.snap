@@ -1,0 +1,691 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Alert Types 1`] = `
+Array [
+  <div
+    className="sc-bwzfXH jOFtGu"
+  >
+    <div
+      className="sc-bdVaJa gnaKXy"
+    >
+      Default alert message.
+    </div>
+  </div>,
+  <div
+    className="sc-bwzfXH jOFtGu"
+  >
+    <div
+      className="sc-bdVaJa jqQChX"
+    >
+      Success alert message.
+    </div>
+  </div>,
+  <div
+    className="sc-bwzfXH jOFtGu"
+  >
+    <div
+      className="sc-bdVaJa bwaMmq"
+    >
+      Warning alert message.
+    </div>
+  </div>,
+  <div
+    className="sc-bwzfXH jOFtGu"
+  >
+    <div
+      className="sc-bdVaJa kcvTAP"
+    >
+      Error alert message.
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Button Types 1`] = `
+Array [
+  <div
+    className="sc-bxivhb jssnQU"
+  >
+    <button
+      className="sc-htpNat emEdqR"
+    >
+      Default
+    </button>
+    <button
+      className="sc-htpNat haGHaT"
+      disabled={true}
+    >
+      Default [disabled]
+    </button>
+    <button
+      className="sc-htpNat haGHaT"
+      disabled={true}
+    >
+      ...
+    </button>
+  </div>,
+  <div
+    className="sc-bxivhb jssnQU"
+  >
+    <button
+      className="sc-htpNat kNohQq"
+      type="primary"
+    >
+      Primary
+    </button>
+    <button
+      className="sc-htpNat eQYPYb"
+      disabled={true}
+      type="primary"
+    >
+      Primary [disabled]
+    </button>
+    <button
+      className="sc-htpNat eQYPYb"
+      disabled={true}
+      type="primary"
+    >
+      ...
+    </button>
+  </div>,
+  <div
+    className="sc-bxivhb jssnQU"
+  >
+    <button
+      className="sc-htpNat gcEssn"
+      type="success"
+    >
+      Success
+    </button>
+    <button
+      className="sc-htpNat fgyohW"
+      disabled={true}
+      type="success"
+    >
+      Success [disabled]
+    </button>
+    <button
+      className="sc-htpNat fgyohW"
+      disabled={true}
+      type="success"
+    >
+      ...
+    </button>
+  </div>,
+  <div
+    className="sc-bxivhb jssnQU"
+  >
+    <button
+      className="sc-htpNat iCeDIK"
+      type="warning"
+    >
+      Warning
+    </button>
+    <button
+      className="sc-htpNat kPfoqR"
+      disabled={true}
+      type="warning"
+    >
+      Warning [disabled]
+    </button>
+    <button
+      className="sc-htpNat kPfoqR"
+      disabled={true}
+      type="warning"
+    >
+      ...
+    </button>
+  </div>,
+  <div
+    className="sc-bxivhb jssnQU"
+  >
+    <button
+      className="sc-htpNat hdTDjt"
+      type="error"
+    >
+      Error
+    </button>
+    <button
+      className="sc-htpNat dNeFEL"
+      disabled={true}
+      type="error"
+    >
+      Error [disabled]
+    </button>
+    <button
+      className="sc-htpNat dNeFEL"
+      disabled={true}
+      type="error"
+    >
+      ...
+    </button>
+  </div>,
+]
+`;
+
+exports[`Storyshots Form Input Default [number] 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <input
+    className="sc-ifAKCX gChNSF"
+    id="someId"
+    placeholder="1"
+    type="number"
+  />
+</div>
+`;
+
+exports[`Storyshots Form Input Default [text] 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <input
+    className="sc-ifAKCX gChNSF"
+    id="someId"
+    placeholder="Some Placeholder"
+  />
+</div>
+`;
+
+exports[`Storyshots Form Input Disabled 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <input
+    className="sc-ifAKCX bGmDkB"
+    disabled={true}
+    id="someId"
+    value="Disabled Value"
+  />
+</div>
+`;
+
+exports[`Storyshots Form Input Error 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <input
+    className="sc-ifAKCX cVYMjO"
+    id="someId"
+    value="Some Value"
+  />
+  <span
+    className="sc-gzVnrw iSsSQE"
+  >
+    Some Error
+  </span>
+</div>
+`;
+
+exports[`Storyshots Form Input Filled 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <input
+    className="sc-ifAKCX gChNSF"
+    id="someId"
+    value="Some Value"
+  />
+</div>
+`;
+
+exports[`Storyshots Form Select Default 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <select
+    className="sc-htoDjs kzUlDb"
+    id="someId"
+  >
+    <option
+      selected={false}
+      value={1}
+    >
+      first option
+    </option>
+    <option
+      selected={false}
+      value={2}
+    >
+      second option
+    </option>
+    <option
+      selected={false}
+      value={3}
+    >
+      third option
+    </option>
+    <option
+      selected={false}
+      value={4}
+    >
+      fourth option
+    </option>
+    <option
+      selected={false}
+      value={5}
+    >
+      fifth option
+    </option>
+    <option
+      selected={false}
+      value={6}
+    >
+      some really long option text
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Storyshots Form Select Disabled 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <select
+    className="sc-htoDjs exfrgK"
+    disabled={true}
+    id="someId"
+  >
+    <option
+      selected={false}
+      value={1}
+    >
+      first option
+    </option>
+    <option
+      selected={false}
+      value={2}
+    >
+      second option
+    </option>
+    <option
+      selected={true}
+      value={3}
+    >
+      third option
+    </option>
+    <option
+      selected={false}
+      value={4}
+    >
+      fourth option
+    </option>
+    <option
+      selected={false}
+      value={5}
+    >
+      fifth option
+    </option>
+    <option
+      selected={false}
+      value={6}
+    >
+      some really long option text
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Storyshots Form Select Error 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <select
+    className="sc-htoDjs cibvEV"
+    id="someId"
+  >
+    <option
+      selected={false}
+      value={1}
+    >
+      first option
+    </option>
+    <option
+      selected={false}
+      value={2}
+    >
+      second option
+    </option>
+    <option
+      selected={true}
+      value={3}
+    >
+      third option
+    </option>
+    <option
+      selected={false}
+      value={4}
+    >
+      fourth option
+    </option>
+    <option
+      selected={false}
+      value={5}
+    >
+      fifth option
+    </option>
+    <option
+      selected={false}
+      value={6}
+    >
+      some really long option text
+    </option>
+  </select>
+  <span
+    className="sc-gzVnrw iSsSQE"
+  >
+    Some Error
+  </span>
+</div>
+`;
+
+exports[`Storyshots Form Select Selected 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <select
+    className="sc-htoDjs kzUlDb"
+    id="someId"
+  >
+    <option
+      selected={false}
+      value={1}
+    >
+      first option
+    </option>
+    <option
+      selected={false}
+      value={2}
+    >
+      second option
+    </option>
+    <option
+      selected={true}
+      value={3}
+    >
+      third option
+    </option>
+    <option
+      selected={false}
+      value={4}
+    >
+      fourth option
+    </option>
+    <option
+      selected={false}
+      value={5}
+    >
+      fifth option
+    </option>
+    <option
+      selected={false}
+      value={6}
+    >
+      some really long option text
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Storyshots Form Textarea Default [text] 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <textarea
+    className="sc-dnqmqq hbOkrI"
+    id="someId"
+    placeholder="Some Placeholder"
+  />
+</div>
+`;
+
+exports[`Storyshots Form Textarea Disabled 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <textarea
+    className="sc-dnqmqq hDzWDd"
+    disabled={true}
+    id="someId"
+    value="Disabled Value"
+  />
+</div>
+`;
+
+exports[`Storyshots Form Textarea Error 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <textarea
+    className="sc-dnqmqq iFnmri"
+    id="someId"
+    value="Some Value"
+  />
+  <span
+    className="sc-gzVnrw iSsSQE"
+  >
+    Some Error
+  </span>
+</div>
+`;
+
+exports[`Storyshots Form Textarea Filled 1`] = `
+<div
+  className="sc-EHOje jvzENE"
+>
+  <label
+    className="sc-bZQynM kgPxqQ"
+    for="someId"
+  >
+    Some Label
+  </label>
+  <textarea
+    className="sc-dnqmqq hbOkrI"
+    id="someId"
+    value="Some Value"
+  />
+</div>
+`;
+
+exports[`Storyshots NavBar Default 1`] = `
+<div
+  className="sc-jzJRlG brNPlP"
+>
+  <nav
+    className="sc-VigVT clLkCs"
+  >
+    <div
+      className="sc-jTzLTM OkWhj"
+    >
+      <span
+        className="sc-fjdhpX iagwsn"
+        isActive={true}
+        isOpen={true}
+        onClick={[Function]}
+        to="/"
+      >
+        Home
+      </span>
+      <span
+        className="sc-fjdhpX cuWHUM"
+        isActive={false}
+        isOpen={true}
+        onClick={[Function]}
+        to="/counter"
+      >
+        Counter
+      </span>
+      <span
+        className="sc-fjdhpX cuWHUM"
+        isActive={false}
+        isOpen={true}
+        onClick={[Function]}
+        to="/posts"
+      >
+        Blog
+      </span>
+    </div>
+    <svg
+      className="sc-iwsKbI heUUnb"
+      height="49.5px"
+      onClick={[Function]}
+      viewBox="0 0 48 34"
+      width="72px"
+    >
+      <title>
+        Mobile Menu
+      </title>
+      <g
+        className="sc-gZMcBi bypQlr"
+      >
+        <path
+          className="sc-gqjmRU cALnPm"
+          d="M20.945,8.75c0,0.69-0.5,1.25-1.117,1.25H3.141c-0.617,0-1.118-0.56-1.118-1.25l0,0
+        c0-0.69,0.5-1.25,1.118-1.25h16.688C20.445,7.5,20.945,8.06,20.945,8.75L20.945,8.75z"
+        />
+        <path
+          className="sc-gqjmRU cALnPm"
+          d="M20.923,15c0,0.689-0.501,1.25-1.118,1.25H3.118C2.5,16.25,2,15.689,2,15l0,0
+        c0-0.689,0.5-1.25,1.118-1.25 h16.687C20.422,13.75,20.923,14.311,20.923,15L20.923,15z"
+        />
+        <path
+          className="sc-gqjmRU cALnPm"
+          d="M20.969,21.25c0,0.689-0.5,1.25-1.117,1.25H3.164c-0.617,0-1.118-0.561-1.118-1.25l0,0
+        c0-0.689,0.5-1.25,1.118-1.25h16.688C20.469,20,20.969,20.561,20.969,21.25L20.969,21.25z"
+        />
+      </g>
+    </svg>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots Spinner Default 1`] = `
+<div
+  className="sc-cSHVUG ljJkPH"
+/>
+`;
+
+exports[`Storyshots Typography Anchor 1`] = `
+<a
+  className="sc-jKJlTe lmMgNS"
+  href="#"
+>
+  Some simple anchor
+</a>
+`;
+
+exports[`Storyshots Typography Headers 1`] = `
+Array [
+  <h1
+    className="sc-kAzzGY fBNITy"
+  >
+    Header
+  </h1>,
+  <h2
+    className="sc-chPdSV bsWeum"
+  >
+    Header
+  </h2>,
+  <h3
+    className="sc-kgoBCf hizdxz"
+  >
+    Header
+  </h3>,
+  <h4
+    className="sc-kGXeez inYkpw"
+  >
+    Header
+  </h4>,
+  <h5
+    className="sc-kpOJdX eFVGPw"
+  >
+    Header
+  </h5>,
+  <h6
+    className="sc-dxgOiQ eulGdH"
+  >
+    Header
+  </h6>,
+]
+`;
+
+exports[`Storyshots Typography Paragraph 1`] = `
+<p
+  className="sc-ckVGcZ inqXje"
+>
+  Utinam audiam partiendo in nec, in nec semper tritani expetendis, in qui minim expetenda. Quo agam prompta explicari ut, an eripuit ornatus quaerendum sit, unum convenire assentior nec ei. Has eu zril vocibus, diceret deleniti at eum. Pri iusto ubique reformidans cu, saepe oratio officiis est an. At mei primis mediocrem disputando, recteque electram consulatu ea his. Usu zril conceptam ut. Sit audire legendos persequeris cu.
+</p>
+`;
