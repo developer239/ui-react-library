@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/developer239/ui-library-ts/compare/v1.5.0...v1.5.1) (2018-12-29)
+
+
+### Bug Fixes
+
+* include ts files in released assets ([dabb982](https://github.com/developer239/ui-library-ts/commit/dabb982))
+
 # [1.5.0](https://github.com/developer239/ui-library-ts/compare/v1.4.6...v1.5.0) (2018-12-29)
 
 
