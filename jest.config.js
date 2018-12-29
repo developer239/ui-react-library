@@ -1,6 +1,6 @@
 module.exports = {
   'moduleFileExtensions': ['js', 'jsx', 'json', 'ts', 'tsx'],
-  'modulePaths': ['.storybook', 'src', 'stories'],
+  'modulePaths': ['src', 'stories'],
   'verbose': true,
   'collectCoverage': false,
   'transform': {

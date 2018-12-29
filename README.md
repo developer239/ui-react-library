@@ -1,8 +1,8 @@
 # UI React Library
 
 [![CircleCI](https://circleci.com/gh/developer239/ui-react-library.svg?style=svg)](https://circleci.com/gh/developer239/ui-react-library)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/7cefda984e171eb1adac/test_coverage)](https://codeclimate.com/github/developer239/ui-react-library/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/7cefda984e171eb1adac/maintainability)](https://codeclimate.com/github/developer239/ui-react-library/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2e67c58143bc46edd516/test_coverage)](https://codeclimate.com/github/developer239/ui-react-library/test_coverag)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2e67c58143bc46edd516/maintainability)](https://codeclimate.com/github/developer239/ui-react-library/maintainability)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 Run `yarn add ui-react-library` and try it out! 🎉
