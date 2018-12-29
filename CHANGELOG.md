@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/developer239/ui-library-ts/compare/v1.3.0...v1.4.0) (2018-12-29)
+
+
+### Features
+
+* minor design updates ([ae5f437](https://github.com/developer239/ui-library-ts/commit/ae5f437))
+
 # [1.3.0](https://github.com/developer239/ui-library-ts/compare/v1.2.0...v1.3.0) (2018-12-28)
 
 
