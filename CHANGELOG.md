@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/developer239/ui-library-ts/compare/v1.4.6...v1.5.0) (2018-12-29)
+
+
+### Features
+
+* make ui library compatible with typescript ([3b347cc](https://github.com/developer239/ui-library-ts/commit/3b347cc))
+
 ## [1.4.6](https://github.com/developer239/ui-library-ts/compare/v1.4.5...v1.4.6) (2018-12-29)
 
 ## [1.4.5](https://github.com/developer239/ui-library-ts/compare/v1.4.4...v1.4.5) (2018-12-29)
