@@ -15,7 +15,7 @@
     "@semantic-release/changelog",
     "@semantic-release/npm",
     ["@semantic-release/git", {
-      "assets": ["lib/**/*.{js,css}", "CHANGELOG.md", "package.json"]
+      "assets": ["lib/**/*.{js,ts,css}", "CHANGELOG.md", "package.json"]
     }]
   ]
 }
