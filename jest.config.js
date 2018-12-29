@@ -18,4 +18,5 @@ module.exports = {
     '/build/',
     '/coverage/',
   ],
+  'coverageReporters': ['json', 'lcov', 'text'],
 }
