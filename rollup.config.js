@@ -3,12 +3,14 @@ import typescript from 'rollup-plugin-typescript'
 import filesize from 'rollup-plugin-filesize'
 import progress from 'rollup-plugin-progress'
 import babel from 'rollup-plugin-babel'
+import commonjs from 'rollup-plugin-commonjs';
+import nodeResolve from 'rollup-plugin-node-resolve';
 
 export default {
   input: './src/index.ts',
   output: [
     {
-      file: 'esm/index.js',
+      file: 'lib/index.es.js',
       format: 'esm',
       sourcemap: true,
     },
@@ -21,15 +23,14 @@ export default {
   ],
   plugins: [
     external(),
+    nodeResolve(),
+    commonjs(),
     typescript({
       lib: ["es5", "es6", "dom"],
       target: "es5"
     }),
-    babel({
-      babelrc: false,
-      presets: [['env', { modules: false }]],
-    }),
+    babel(),
     filesize(),
-    progress({ clearLine: false }),
+    progress(),
   ]
 }
