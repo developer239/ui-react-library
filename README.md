@@ -9,7 +9,7 @@ Working on side projects is fun but creating different components for every appl
 
 ## Demo
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) [![Greenkeeper badge](https://badges.greenkeeper.io/developer239/ui-react-library.svg)](https://greenkeeper.io/)
 
 You can try the application [here](https://react-ui-library.herokuapp.com) (it might take a while before the free server wakes up)
 
