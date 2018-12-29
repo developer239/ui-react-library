@@ -3,13 +3,15 @@
 [![CircleCI](https://circleci.com/gh/developer239/ui-react-library.svg?style=svg)](https://circleci.com/gh/developer239/ui-react-library)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2e67c58143bc46edd516/test_coverage)](https://codeclimate.com/github/developer239/ui-react-library/test_coverag)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2e67c58143bc46edd516/maintainability)](https://codeclimate.com/github/developer239/ui-react-library/maintainability)
+[![Greenkeeper badge](https://badges.greenkeeper.io/developer239/ui-react-library.svg)](https://greenkeeper.io/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![npm version](http://img.shields.io/npm/v/ui-react-library.svg?style=flat)](https://npmjs.org/package/ui-react-library "View this project on npm")
 
 Working on side projects is fun but creating different components for every application can be frustrating. Custom UI library can help.
 
 ## Demo
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) [![Greenkeeper badge](https://badges.greenkeeper.io/developer239/ui-react-library.svg)](https://greenkeeper.io/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 You can try the application [here](https://react-ui-library.herokuapp.com) (it might take a while before the free server wakes up)
 
