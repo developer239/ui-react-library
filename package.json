@@ -53,7 +53,7 @@
     "@storybook/addons": "4.1.7",
     "@storybook/react": "4.1.7",
     "@types/ramda": "0.25.46",
-    "@types/react": "16.7.18",
+    "@types/react": "16.7.19",
     "@types/react-dom": "16.0.11",
     "@types/storybook__addon-actions": "3.4.1",
     "@types/storybook__addon-knobs": "4.0.0",
