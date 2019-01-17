@@ -51,7 +51,7 @@
     "@semantic-release/release-notes-generator": "7.1.4",
     "@storybook/addon-storyshots": "4.1.7",
     "@storybook/addons": "4.1.7",
-    "@storybook/react": "4.1.4",
+    "@storybook/react": "4.1.7",
     "@types/ramda": "0.25.46",
     "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
