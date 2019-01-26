@@ -53,7 +53,7 @@
     "@storybook/addons": "4.1.11",
     "@storybook/react": "4.1.11",
     "@types/ramda": "0.25.47",
-    "@types/react": "16.7.19",
+    "@types/react": "16.7.18",
     "@types/react-dom": "16.0.11",
     "@types/storybook__addon-actions": "3.4.1",
     "@types/storybook__addon-knobs": "4.0.0",
@@ -102,9 +102,9 @@
     "ignore": [
       "react",
       "@types/react",
+      "react-test-renderer",
       "react-dom",
-      "@types/react-dom",
-      "react-test-renderer"
+      "@types/react-dom"
     ]
   }
 }
