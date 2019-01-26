@@ -1,3 +1,10 @@
+## [1.5.11](https://github.com/developer239/ui-library-ts/compare/v1.5.10...v1.5.11) (2019-01-26)
+
+
+### Bug Fixes
+
+* refresh package json and yarn.lock ([ce50931](https://github.com/developer239/ui-library-ts/commit/ce50931))
+
 ## [1.5.10](https://github.com/developer239/ui-library-ts/compare/v1.5.9...v1.5.10) (2019-01-26)
 
 ## [1.5.9](https://github.com/developer239/ui-library-ts/compare/v1.5.8...v1.5.9) (2019-01-19)
