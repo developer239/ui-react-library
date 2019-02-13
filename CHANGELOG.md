@@ -1,3 +1,5 @@
+## [1.5.15](https://github.com/developer239/ui-library-ts/compare/v1.5.14...v1.5.15) (2019-02-13)
+
 ## [1.5.14](https://github.com/developer239/ui-library-ts/compare/v1.5.13...v1.5.14) (2019-02-07)
 
 ## [1.5.13](https://github.com/developer239/ui-library-ts/compare/v1.5.12...v1.5.13) (2019-02-06)
