@@ -1,6 +1,6 @@
 {
   "name": "ui-react-library",
-  "version": "1.5.19",
+  "version": "1.5.20",
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 6006",
