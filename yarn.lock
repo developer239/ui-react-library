@@ -11227,12 +11227,12 @@ rollup-plugin-peer-deps-external@2.2.0:
   resolved "https://registry.yarnpkg.com/rollup-plugin-peer-deps-external/-/rollup-plugin-peer-deps-external-2.2.0.tgz#99ef9231aa01736f3e9605b7c3084a0d627f665b"
   integrity sha512-BmJMHUWQcvjS2dQMwJ7dzvdbwpRChnq4AYk2sTU/4aySt9Kumk8y8W3HhTHss31wxzKb0AC/wsiX1AqDcOBIEA==
 
-rollup-plugin-progress@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-progress/-/rollup-plugin-progress-1.0.0.tgz#bcec2c4270776943659303f59255e57a38152f36"
-  integrity sha512-YszxVckRr82ZG/XriWPBA+Mre3S6qkdyUgyGtJ9qPxoWIUsn66nRDdqwujVmkgyOGjreHIUvHvTapo7U9FuK4A==
+rollup-plugin-progress@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-progress/-/rollup-plugin-progress-1.1.1.tgz#fcce2f915d545014ac89ea0927ee97cb48052f60"
+  integrity sha512-RIs2bnk/O2fylGN0F2w38U4PhAGIt8/N2noZ3i2tDOF0qg0PPZLKMMFp24MQUyND/w9nu61DRSanwpXOoJhxIA==
   dependencies:
-    chalk "^1.1.3"
+    chalk "^2.4.2"
 
 rollup-plugin-typescript@^1.0.0:
   version "1.0.0"
