@@ -1,10 +1,10 @@
 const theme = {
-  fontFamily: 'Helvetica, Arial, sans-serif',
+  fontFamily: 'Roboto',
   color: {
     text: '#000000',
-    primary: '#45aaf2',
-    secondary: '#2d98da',
-    success: '#26de81',
+    primary: '#2d98da',
+    secondary: '#45aaf2',
+    success: '#20bf6b',
     warning: '#fd9644',
     error: '#fc5c65',
     white: '#ffffff',

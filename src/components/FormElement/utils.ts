@@ -30,6 +30,6 @@ export const inputMixin = () => css`
   ${is('disabled')`
     cursor: not-allowed;
     background-color: ${path(['theme', 'color', 'disabledBackground'])};
-    color: ${path(['theme', 'color', 'disabledColor'])};
+    color: ${path(['theme', 'color', 'black'])};
   `}
 `
