@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/developer239/ui-library-ts/compare/v1.5.37...v1.6.0) (2019-04-26)
+
+
+### Bug Fixes
+
+* failing build 💣 ([3061e4e](https://github.com/developer239/ui-library-ts/commit/3061e4e))
+
+
+### Features
+
+* apply minor style updates ([0f7e5c6](https://github.com/developer239/ui-library-ts/commit/0f7e5c6))
+
 ## [1.5.37](https://github.com/developer239/ui-library-ts/compare/v1.5.36...v1.5.37) (2019-04-01)
 
 ## [1.5.36](https://github.com/developer239/ui-library-ts/compare/v1.5.35...v1.5.36) (2019-03-31)
