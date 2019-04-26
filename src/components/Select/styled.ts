@@ -5,7 +5,6 @@ export const StyledSelect = styled.select<{ error?: string }>`
   ${inputMixin()}
 
   -webkit-appearance: none;
-  -webkit-border-radius: 0;
   background-color: ${({ theme }) => theme.color.white};
   background-image: linear-gradient(
       45deg,

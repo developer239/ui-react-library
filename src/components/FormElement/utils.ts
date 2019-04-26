@@ -9,7 +9,7 @@ export const inputMixin = () => css`
   font-size: 1.4rem;
   width: 100%;
   box-sizing: border-box;
-  padding: 1.25rem 2rem 1.25rem 1.25rem;
+  padding: 1rem 2rem 1rem 1.25rem;
   color: ${({ theme }) => theme.color.black};
   border: 1px solid ${({ theme }) => theme.color.interfaceDark};
 

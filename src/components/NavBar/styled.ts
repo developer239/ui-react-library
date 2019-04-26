@@ -8,7 +8,7 @@ export const Container = styled.nav`
   display: flex;
   flex-direction: column-reverse;
   width: 100%;
-  background-color: ${path(['theme', 'color', 'secondary'])};
+  background-color: ${path(['theme', 'color', 'primary'])};
 `
 
 export const LinksContainer = styled.div<{ isOpen?: boolean }>`
@@ -39,7 +39,7 @@ export const StyledLink = styled.a<{ isOpen?: boolean; isActive?: boolean }>`
   text-decoration: none;
 
   &:hover {
-    background-color: ${path(['theme', 'color', 'primary'])};
+    background-color: ${path(['theme', 'color', 'secondary'])};
     color: ${path(['theme', 'color', 'white'])};
   }
 

@@ -9,9 +9,8 @@ import { IContainerProps } from './types'
 const alertColorsMixin = (type: string) => ({
   theme: { color },
 }: IStyledProps) => css`
-  color: ${color[type]};
-  border: 0.1rem solid ${hexToRgb(color[type], 0.15)};
-  background-color: ${hexToRgb(color[type], 0.15)};
+  color: ${color.white};
+  background-color: ${hexToRgb(color[type], 0.6)};
 `
 
 export const Container = styled.div<IContainerProps>`

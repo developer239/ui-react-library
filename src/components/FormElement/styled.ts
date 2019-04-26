@@ -20,6 +20,6 @@ export const Error = styled.span`
   display: block;
   text-align: left;
   margin-top: 0.5rem;
-  padding: 1rem;
+  padding: 1rem 1.2rem;
   background-color: ${path(['theme', 'color', 'error'])};
 `
