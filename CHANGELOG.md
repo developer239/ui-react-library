@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/developer239/ui-library-ts/compare/v1.7.0...v1.7.1) (2019-04-26)
+
+
+### Bug Fixes
+
+* update snapshots ([db514fa](https://github.com/developer239/ui-library-ts/commit/db514fa))
+
 # [1.7.0](https://github.com/developer239/ui-library-ts/compare/v1.6.0...v1.7.0) (2019-04-26)
 
 
