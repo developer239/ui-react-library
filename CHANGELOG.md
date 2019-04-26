@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/developer239/ui-library-ts/compare/v1.8.1...v1.9.0) (2019-04-26)
+
+
+### Features
+
+* change default font-weight to 300 ([1414e72](https://github.com/developer239/ui-library-ts/commit/1414e72))
+
 ## [1.8.1](https://github.com/developer239/ui-library-ts/compare/v1.8.0...v1.8.1) (2019-04-26)
 
 
