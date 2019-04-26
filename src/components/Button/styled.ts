@@ -16,6 +16,7 @@ export const BaseButton = styled.button<{
   color: ${({ theme, type }) => theme.color[type ? 'white' : 'black']};
   opacity: 1;
   border: none;
+  border-radius: 0.4rem;
 
   ${is('disabled')`
     opacity: 0.6;

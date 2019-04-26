@@ -3,6 +3,7 @@ import { path } from 'ramda'
 import is from 'styled-is'
 
 export const inputMixin = () => css`
+  border-radius: 0.4rem;
   font-family: ${({ theme }) => theme.fontFamily};
   display: inline-block;
   font-size: 1.4rem;

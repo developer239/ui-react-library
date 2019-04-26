@@ -15,6 +15,7 @@ const alertColorsMixin = (type: string) => ({
 `
 
 export const Container = styled.div<IContainerProps>`
+  border-radius: 0.4rem;
   font-size: 1.6rem;
   line-height: 2.4rem;
   padding: 1.5rem 2rem;

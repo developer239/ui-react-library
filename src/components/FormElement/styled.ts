@@ -12,6 +12,7 @@ export const Label = styled.label<{ for?: string }>`
 `
 
 export const Error = styled.span`
+  border-radius: 0.4rem;
   font-family: ${path(['theme', 'fontFamily'])};
   color: ${path(['theme', 'color', 'white'])};
   font-size: 1.4rem;
