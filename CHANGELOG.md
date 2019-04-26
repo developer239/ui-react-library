@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/developer239/ui-library-ts/compare/v1.8.0...v1.8.1) (2019-04-26)
+
+
+### Bug Fixes
+
+* fix failing snapshots ([0e7597d](https://github.com/developer239/ui-library-ts/commit/0e7597d))
+
 # [1.8.0](https://github.com/developer239/ui-library-ts/compare/v1.7.1...v1.8.0) (2019-04-26)
 
 
