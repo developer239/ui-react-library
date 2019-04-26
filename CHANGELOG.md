@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/developer239/ui-library-ts/compare/v1.7.1...v1.8.0) (2019-04-26)
+
+
+### Features
+
+* apply minor style updates ([b687d9a](https://github.com/developer239/ui-library-ts/commit/b687d9a))
+
 ## [1.7.1](https://github.com/developer239/ui-library-ts/compare/v1.7.0...v1.7.1) (2019-04-26)
 
 
