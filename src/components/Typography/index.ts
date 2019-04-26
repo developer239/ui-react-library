@@ -52,7 +52,7 @@ export const H6 = styled.h6`
 export const P = styled.p`
   font-family: ${path(['theme', 'fontFamily'])};
   color: ${path(['theme', 'color', 'text'])};
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.6rem;
 `
 

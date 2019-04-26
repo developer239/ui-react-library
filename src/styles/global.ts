@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 const createGlobalStyles = () => createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
   html {
     height: 100%;

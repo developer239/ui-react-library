@@ -9,6 +9,7 @@ export const Label = styled.label<{ for?: string }>`
   display: block;
   text-align: left;
   margin-bottom: 0.5rem;
+  font-weight: 300;
 `
 
 export const Error = styled.span`

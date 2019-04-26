@@ -23,6 +23,7 @@ export const Container = styled.div<IContainerProps>`
   color: ${path(['theme', 'color', 'black'])};
   border: 0.1rem solid ${({ theme }) => hexToRgb(theme.color.interface, 0.15)};
   background-color: ${({ theme }) => hexToRgb(theme.color.interface, 0.15)};
+  font-weight: 300;
 
   ${is('isSuccess')`
     ${alertColorsMixin('success')}

@@ -37,6 +37,7 @@ export const StyledLink = styled.a<{ isOpen?: boolean; isActive?: boolean }>`
   cursor: pointer;
   transition: all 250ms linear;
   text-decoration: none;
+  font-weight: 300;
 
   &:hover {
     background-color: ${path(['theme', 'color', 'secondary'])};

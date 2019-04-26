@@ -6,7 +6,7 @@ Array [
     className="sc-bwzfXH jOFtGu"
   >
     <div
-      className="sc-bdVaJa bjIvmR"
+      className="sc-bdVaJa kBtvgL"
     >
       Default alert message.
     </div>
@@ -15,7 +15,7 @@ Array [
     className="sc-bwzfXH jOFtGu"
   >
     <div
-      className="sc-bdVaJa hVeUbU"
+      className="sc-bdVaJa gKPThc"
     >
       Success alert message.
     </div>
@@ -24,7 +24,7 @@ Array [
     className="sc-bwzfXH jOFtGu"
   >
     <div
-      className="sc-bdVaJa fihJDk"
+      className="sc-bdVaJa gMIKvc"
     >
       Warning alert message.
     </div>
@@ -33,7 +33,7 @@ Array [
     className="sc-bwzfXH jOFtGu"
   >
     <div
-      className="sc-bdVaJa bGoDUP"
+      className="sc-bdVaJa iCqLQu"
     >
       Error alert message.
     </div>
@@ -47,18 +47,18 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat kvkkzM"
+      className="sc-htpNat kPGBzC"
     >
       Default
     </button>
     <button
-      className="sc-htpNat dRokiD"
+      className="sc-htpNat dZWAbK"
       disabled={true}
     >
       Default [disabled]
     </button>
     <button
-      className="sc-htpNat dRokiD"
+      className="sc-htpNat dZWAbK"
       disabled={true}
     >
       ...
@@ -68,20 +68,20 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat kbbCdU"
+      className="sc-htpNat csnpgC"
       type="primary"
     >
       Primary
     </button>
     <button
-      className="sc-htpNat jmmfJy"
+      className="sc-htpNat dXjeQE"
       disabled={true}
       type="primary"
     >
       Primary [disabled]
     </button>
     <button
-      className="sc-htpNat jmmfJy"
+      className="sc-htpNat dXjeQE"
       disabled={true}
       type="primary"
     >
@@ -92,20 +92,20 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat cETiXo"
+      className="sc-htpNat glHeno"
       type="success"
     >
       Success
     </button>
     <button
-      className="sc-htpNat bSYZZJ"
+      className="sc-htpNat fLsAfI"
       disabled={true}
       type="success"
     >
       Success [disabled]
     </button>
     <button
-      className="sc-htpNat bSYZZJ"
+      className="sc-htpNat fLsAfI"
       disabled={true}
       type="success"
     >
@@ -116,20 +116,20 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat gxwzMW"
+      className="sc-htpNat kpLuWd"
       type="warning"
     >
       Warning
     </button>
     <button
-      className="sc-htpNat jZmJCd"
+      className="sc-htpNat fZCiAj"
       disabled={true}
       type="warning"
     >
       Warning [disabled]
     </button>
     <button
-      className="sc-htpNat jZmJCd"
+      className="sc-htpNat fZCiAj"
       disabled={true}
       type="warning"
     >
@@ -140,20 +140,20 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat dyLcUL"
+      className="sc-htpNat CDlCp"
       type="error"
     >
       Error
     </button>
     <button
-      className="sc-htpNat dDNImP"
+      className="sc-htpNat bwvKup"
       disabled={true}
       type="error"
     >
       Error [disabled]
     </button>
     <button
-      className="sc-htpNat dDNImP"
+      className="sc-htpNat bwvKup"
       disabled={true}
       type="error"
     >
@@ -168,13 +168,13 @@ exports[`Storyshots Form Input Default [number] 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <input
-    className="sc-ifAKCX fFMYXl"
+    className="sc-ifAKCX ilibil"
     id="someId"
     placeholder="1"
     type="number"
@@ -187,13 +187,13 @@ exports[`Storyshots Form Input Default [text] 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <input
-    className="sc-ifAKCX fFMYXl"
+    className="sc-ifAKCX ilibil"
     id="someId"
     placeholder="Some Placeholder"
   />
@@ -205,13 +205,13 @@ exports[`Storyshots Form Input Disabled 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <input
-    className="sc-ifAKCX gxGacV"
+    className="sc-ifAKCX jPEArt"
     disabled={true}
     id="someId"
     value="Disabled Value"
@@ -224,13 +224,13 @@ exports[`Storyshots Form Input Error 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <input
-    className="sc-ifAKCX rAOMq"
+    className="sc-ifAKCX kltyXz"
     id="someId"
     value="Some Value"
   />
@@ -247,13 +247,13 @@ exports[`Storyshots Form Input Filled 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <input
-    className="sc-ifAKCX fFMYXl"
+    className="sc-ifAKCX ilibil"
     id="someId"
     value="Some Value"
   />
@@ -265,13 +265,13 @@ exports[`Storyshots Form Select Default 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <select
-    className="sc-htoDjs hHtNdD"
+    className="sc-htoDjs eFgptt"
     id="someId"
   >
     <option
@@ -319,13 +319,13 @@ exports[`Storyshots Form Select Disabled 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <select
-    className="sc-htoDjs fxcTai"
+    className="sc-htoDjs ebOHvM"
     disabled={true}
     id="someId"
   >
@@ -374,13 +374,13 @@ exports[`Storyshots Form Select Error 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <select
-    className="sc-htoDjs fYAYXp"
+    className="sc-htoDjs cpyeCP"
     id="someId"
   >
     <option
@@ -433,13 +433,13 @@ exports[`Storyshots Form Select Selected 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <select
-    className="sc-htoDjs hHtNdD"
+    className="sc-htoDjs eFgptt"
     id="someId"
   >
     <option
@@ -487,13 +487,13 @@ exports[`Storyshots Form Textarea Default [text] 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <textarea
-    className="sc-dnqmqq fakZcY"
+    className="sc-dnqmqq cTomPa"
     id="someId"
     placeholder="Some Placeholder"
   />
@@ -505,13 +505,13 @@ exports[`Storyshots Form Textarea Disabled 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <textarea
-    className="sc-dnqmqq dSaDRe"
+    className="sc-dnqmqq cTegTr"
     disabled={true}
     id="someId"
     value="Disabled Value"
@@ -524,13 +524,13 @@ exports[`Storyshots Form Textarea Error 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <textarea
-    className="sc-dnqmqq ggXteH"
+    className="sc-dnqmqq MuUeG"
     id="someId"
     value="Some Value"
   />
@@ -547,13 +547,13 @@ exports[`Storyshots Form Textarea Filled 1`] = `
   className="sc-EHOje jvzENE"
 >
   <label
-    className="sc-bZQynM gSqAHq"
+    className="sc-bZQynM hlUKJw"
     for="someId"
   >
     Some Label
   </label>
   <textarea
-    className="sc-dnqmqq fakZcY"
+    className="sc-dnqmqq cTomPa"
     id="someId"
     value="Some Value"
   />
@@ -571,7 +571,7 @@ exports[`Storyshots NavBar Default 1`] = `
       className="sc-jTzLTM OkWhj"
     >
       <span
-        className="sc-fjdhpX giYkXT"
+        className="sc-fjdhpX cDeDMP"
         isActive={true}
         isOpen={true}
         onClick={[Function]}
@@ -580,7 +580,7 @@ exports[`Storyshots NavBar Default 1`] = `
         Home
       </span>
       <span
-        className="sc-fjdhpX jhTWn"
+        className="sc-fjdhpX eaNIaT"
         isActive={false}
         isOpen={true}
         onClick={[Function]}
@@ -589,7 +589,7 @@ exports[`Storyshots NavBar Default 1`] = `
         Counter
       </span>
       <span
-        className="sc-fjdhpX jhTWn"
+        className="sc-fjdhpX eaNIaT"
         isActive={false}
         isOpen={true}
         onClick={[Function]}
@@ -684,7 +684,7 @@ Array [
 
 exports[`Storyshots Typography Paragraph 1`] = `
 <p
-  className="sc-ckVGcZ jhoJEP"
+  className="sc-ckVGcZ bpDmnO"
 >
   Utinam audiam partiendo in nec, in nec semper tritani expetendis, in qui minim expetenda. Quo agam prompta explicari ut, an eripuit ornatus quaerendum sit, unum convenire assentior nec ei. Has eu zril vocibus, diceret deleniti at eum. Pri iusto ubique reformidans cu, saepe oratio officiis est an. At mei primis mediocrem disputando, recteque electram consulatu ea his. Usu zril conceptam ut. Sit audire legendos persequeris cu.
 </p>

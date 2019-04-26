@@ -17,6 +17,7 @@ export const BaseButton = styled.button<{
   opacity: 1;
   border: none;
   border-radius: 0.4rem;
+  font-weight: 300;
 
   ${is('disabled')`
     opacity: 0.6;

@@ -12,6 +12,7 @@ export const inputMixin = () => css`
   padding: 1rem 2rem 1rem 1.25rem;
   color: ${({ theme }) => theme.color.black};
   border: 1px solid ${({ theme }) => theme.color.interfaceDark};
+  font-weight: 300;
 
   &:focus {
     outline: 0;
