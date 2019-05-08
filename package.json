@@ -80,7 +80,7 @@
     "rollup-plugin-peer-deps-external": "2.2.0",
     "rollup-plugin-progress": "1.1.1",
     "rollup-plugin-typescript": "1.0.1",
-    "semantic-release": "15.13.3",
+    "semantic-release": "15.13.12",
     "styled-components": "4.2.0",
     "stylelint": "10.0.1",
     "stylelint-config-standard": "18.3.0",
