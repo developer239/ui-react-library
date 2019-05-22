@@ -1,3 +1,5 @@
+## [1.9.10](https://github.com/developer239/ui-library-ts/compare/v1.9.9...v1.9.10) (2019-05-22)
+
 ## [1.9.9](https://github.com/developer239/ui-library-ts/compare/v1.9.8...v1.9.9) (2019-05-19)
 
 ## [1.9.8](https://github.com/developer239/ui-library-ts/compare/v1.9.7...v1.9.8) (2019-05-17)
