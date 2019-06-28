@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/developer239/ui-library-ts/compare/v1.9.11...v1.10.0) (2019-06-28)
+
+
+### Features
+
+* upgrade project dependencies 🌴 ([88491a6](https://github.com/developer239/ui-library-ts/commit/88491a6))
+
 ## [1.9.11](https://github.com/developer239/ui-library-ts/compare/v1.9.10...v1.9.11) (2019-05-23)
 
 ## [1.9.10](https://github.com/developer239/ui-library-ts/compare/v1.9.9...v1.9.10) (2019-05-22)
