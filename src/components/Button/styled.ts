@@ -4,7 +4,7 @@ import { path } from 'ramda'
 import { darkenLighten } from 'src/utils/color'
 
 export const BaseButton = styled.button<{
-  type?: 'primary' | 'success' | 'warning' | 'error'
+  bgType?: 'primary' | 'success' | 'warning' | 'error'
 }>`
   position: relative;
   font-family: ${path(['theme', 'fontFamily'])};
@@ -12,8 +12,9 @@ export const BaseButton = styled.button<{
   padding: 1rem 1.25rem;
   font-size: 1.6rem;
   line-height: 2.1rem;
-  background-color: ${({ theme, type }) => theme.color[type || 'interface']};
-  color: ${({ theme, type }) => theme.color[type ? 'white' : 'black']};
+  background-color: ${({ theme, bgType }) =>
+    theme.color[bgType || 'interface']};
+  color: ${({ theme, bgType }) => theme.color[bgType ? 'white' : 'black']};
   opacity: 1;
   border: none;
   border-radius: 0.4rem;

@@ -19,38 +19,38 @@ storiesOf('Button', module).add('Types', () => (
       <Button isLoading>Default [loading]</Button>
     </Block>
     <Block>
-      <Button type="primary">Primary</Button>
-      <Button type="primary" disabled>
+      <Button bgType="primary">Primary</Button>
+      <Button bgType="primary" disabled>
         Primary [disabled]
       </Button>
-      <Button type="primary" isLoading>
+      <Button bgType="primary" isLoading>
         Primary [loading]
       </Button>
     </Block>
     <Block>
-      <Button type="success">Success</Button>
-      <Button type="success" disabled>
+      <Button bgType="success">Success</Button>
+      <Button bgType="success" disabled>
         Success [disabled]
       </Button>
-      <Button type="success" isLoading>
+      <Button bgType="success" isLoading>
         Success [loading]
       </Button>
     </Block>
     <Block>
-      <Button type="warning">Warning</Button>
-      <Button type="warning" disabled>
+      <Button bgType="warning">Warning</Button>
+      <Button bgType="warning" disabled>
         Warning [disabled]
       </Button>
-      <Button type="warning" isLoading>
+      <Button bgType="warning" isLoading>
         Warning [loading]
       </Button>
     </Block>
     <Block>
-      <Button type="error">Error</Button>
-      <Button type="error" disabled>
+      <Button bgType="error">Error</Button>
+      <Button bgType="error" disabled>
         Error [disabled]
       </Button>
-      <Button type="error" isLoading>
+      <Button bgType="error" isLoading>
         Error [loading]
       </Button>
     </Block>

@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 export interface IOuterProps {
-  type?: 'primary' | 'success' | 'warning' | 'error'
+  bgType?: 'primary' | 'success' | 'warning' | 'error'
   isLoading?: boolean
 }
 

@@ -68,22 +68,19 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat csnpgC"
-      type="primary"
+      className="sc-htpNat cxJwLr"
     >
       Primary
     </button>
     <button
-      className="sc-htpNat dXjeQE"
+      className="sc-htpNat haJWSe"
       disabled={true}
-      type="primary"
     >
       Primary [disabled]
     </button>
     <button
-      className="sc-htpNat dXjeQE"
+      className="sc-htpNat haJWSe"
       disabled={true}
-      type="primary"
     >
       ...
     </button>
@@ -92,22 +89,19 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat glHeno"
-      type="success"
+      className="sc-htpNat itrgAT"
     >
       Success
     </button>
     <button
-      className="sc-htpNat fLsAfI"
+      className="sc-htpNat cTKhpM"
       disabled={true}
-      type="success"
     >
       Success [disabled]
     </button>
     <button
-      className="sc-htpNat fLsAfI"
+      className="sc-htpNat cTKhpM"
       disabled={true}
-      type="success"
     >
       ...
     </button>
@@ -116,22 +110,19 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat kpLuWd"
-      type="warning"
+      className="sc-htpNat bqZFqS"
     >
       Warning
     </button>
     <button
-      className="sc-htpNat fZCiAj"
+      className="sc-htpNat eQwoTA"
       disabled={true}
-      type="warning"
     >
       Warning [disabled]
     </button>
     <button
-      className="sc-htpNat fZCiAj"
+      className="sc-htpNat eQwoTA"
       disabled={true}
-      type="warning"
     >
       ...
     </button>
@@ -140,22 +131,19 @@ Array [
     className="sc-bxivhb jssnQU"
   >
     <button
-      className="sc-htpNat CDlCp"
-      type="error"
+      className="sc-htpNat gRYyAa"
     >
       Error
     </button>
     <button
-      className="sc-htpNat bwvKup"
+      className="sc-htpNat epyUNY"
       disabled={true}
-      type="error"
     >
       Error [disabled]
     </button>
     <button
-      className="sc-htpNat bwvKup"
+      className="sc-htpNat epyUNY"
       disabled={true}
-      type="error"
     >
       ...
     </button>
