@@ -46,7 +46,7 @@
     "@babel/preset-typescript": "7.3.3",
     "@semantic-release/changelog": "3.0.4",
     "@semantic-release/commit-analyzer": "6.2.0",
-    "@semantic-release/git": "7.0.15",
+    "@semantic-release/git": "7.0.16",
     "@semantic-release/npm": "5.1.13",
     "@semantic-release/release-notes-generator": "7.2.1",
     "@storybook/addon-storyshots": "5.1.9",
